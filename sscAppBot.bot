@@ -62,7 +62,7 @@
             "name": "QnABot",
             "KbId": "885253df-cec9-4e0a-b4a8-42be9329edd5",
             "subscriptionKey": "",
-            "endpointKey": "FG7AtOpw1Mr/V3m3fwN9nw==!EaekGJbzQiHIju4q7ApYlyjzbo089Bb0hg351B6NgM6VctWhtppn39uQYEy4eok/",
+            "endpointKey": "348c77b3-3c14-48d1-a77e-87f380d0532c",
             "hostname": "https://sscappbotqna.azurewebsites.net/qnamaker",
             "id": "117"
         }
