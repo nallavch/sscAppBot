@@ -1,0 +1,74 @@
+{
+    "name": "sscAppBot",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "tenantId": "22b185ee-0080-4af3-8bfd-6f8060e538dd",
+            "subscriptionId": "8f05fe30-6057-4f34-b1da-cb156cd69f66",
+            "resourceGroup": "sscAppBot",
+            "serviceName": "sscAppBot",
+            "name": "sscAppBot",
+            "id": "1",
+            "appId": "80811fa4-72d5-47be-8a51-859ccf41558b"
+        },
+        {
+            "type": "blob",
+            "connectionString": "hEQWdNHJDuoSQb0C8ysu7w==!pWsQnNHVeMyU694S6uiSc+5x1MMpoifovJSIEdOTzdxMLzGRgawRaMqBCx0aDWgMMCH0ntPpY0kctlH/vXr7Y+FF2IsDsa8KiRO9ymRtvUpxMgYJQgPsUaBMvzx+S8OnMPCaPW7SGAXuDq1qlpU5ynTqA7JMiyzGNRwLqWyFnEKcCsRFl05/3Rv+lnNExdfZ8uzqGNkBjVC94EXWjp+p3gEkA0/BpRlDgUplGg70xgEX/VIC0NuLmIgEV81fO5yHxN9dUpz2fnsm5dU+GGOMS2bVrok0H32IRUU9FWiJVwbRDGjv/3BfxXyBTBpr/3nGMxqN3dC0f3xYMUaSbS7Tr06tKWtfdNgMUPQH64z4m1jtKJjuTw6T8VbXckwy/UZ4z3FHiuZbdR3Y1Hk9211JO7Qo6dACd6F2oSSzQP1pbAwF9jv6Eg0GwYrOrBjKqfZbN1N58CMpfugmAkhoOhV7oCkX9p7+ZW3haJ/qacRXWd6OQBaoVfmqgewbQLIPPua8",
+            "tenantId": "22b185ee-0080-4af3-8bfd-6f8060e538dd",
+            "subscriptionId": "8f05fe30-6057-4f34-b1da-cb156cd69f66",
+            "resourceGroup": "sscAppBot",
+            "serviceName": "sscappbotbc1d",
+            "id": "2"
+        },
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": " http://localhost:3978/api/messages",
+            "name": "development",
+            "id": "3"
+        },
+        {
+            "type": "endpoint",
+            "appId": "80811fa4-72d5-47be-8a51-859ccf41558b",
+            "appPassword": "wxaLsZ/2zXDkS8fxOsdcJg==!t2wro3LQ5BNAqhazpO13cTFE3P3ohGsPiCUZ4cBSJsKk+3U0moSM+BT3Umd3byD/vhREtevnS/5aLbKbuDjpFKB/LyzwWAA9ZAt7rUau20hRRzQm6xdHH1ZPd6dlQjq9+NpIbOXz/0Q2A2Rx4gVCLbFoeGUTSpqb9OvgILo8ykQibCXhel8bK0s+5PxoSEBH",
+            "endpoint": "https://sscappbot.azurewebsites.net/api/messages",
+            "name": "production",
+            "id": "4"
+        },
+        {
+            "type": "appInsights",
+            "instrumentationKey": "JjPc66XVlrPKNzy2uP8Fng==!m+2mYMJVUZSUiW6o5f48NLEE3lo0xi4z9YbQJDWJjMFoU0oXPLiWoHmaBMdWuwqE66jSeU+Qzuu1gZfegmBC1X8gSzvFaxTOhFRjOtE9cr0w97F3B8A0AuOykXqAwsrnYYjUEzogFTHrUzInvsAVAS4JEqf4QUAwDuOW0DIAf1BCkpY7H0JmT75RksqDw7TfW0i8HkzE22YADcc0AdqeKA==",
+            "applicationId": "420672df-57fe-4f4e-948a-f25ec82f1db8",
+            "apiKeys": {},
+            "tenantId": "22b185ee-0080-4af3-8bfd-6f8060e538dd",
+            "subscriptionId": "8f05fe30-6057-4f34-b1da-cb156cd69f66",
+            "resourceGroup": "sscAppBot",
+            "serviceName": "sscAppBott5kzjv",
+            "id": "5"
+        },
+        {
+            "type": "luis",
+            "appId": "a4cac135-68ba-490c-b5b0-d7521e7afa95",
+            "authoringKey": "PvTEod2w2QTwyJ18BDFBBQ==!xrm5TjHi31Sgi96D4Th5JeXpc3msNAqI8YkRfLY3oqMfB9yUe+h5wGsOGdfFAcgyPplJd4GxpEfgrmC8cq9kHxK16uk7M+NgoHEEpDuGwbuoaIk8CU3D5AAylGU1ysjOkDMMbvHLd2mO/4mmYkMMughuYQVDpH48JnWYQZ9CE8qj7BXWqAXKslzXdZHXVsY4wLHNLkkb4ZkZHqZefvvEAw==",
+            "version": "0.1",
+            "region": "westus",
+            "name": "BasicBotLuisApplication",
+            "id": "6"
+        },
+        {
+            "type": "qna",
+            "name": "QnABot",
+            "KbId": "885253df-cec9-4e0a-b4a8-42be9329edd5",
+            "subscriptionKey": "",
+            "endpointKey": "FG7AtOpw1Mr/V3m3fwN9nw==!EaekGJbzQiHIju4q7ApYlyjzbo089Bb0hg351B6NgM6VctWhtppn39uQYEy4eok/",
+            "hostname": "https://sscappbotqna.azurewebsites.net/qnamaker",
+            "id": "117"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "C:\\Users\\a065312.ABC\\Desktop\\sscAppBot-src (1)\\sscAppBot.bot",
+    "overrides": null
+}
